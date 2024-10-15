@@ -6,8 +6,9 @@
     <title>Bachao</title>
     <link rel="stylesheet" href="crisis.css">
     
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
 </head>
 <body>
     <header>
@@ -27,22 +28,21 @@
     <section class="overview">
         <h1>Crisis Management Overview</h1>
         <div class="overview-stats">
+            <!-- Total Requests Stat Box -->
             <div class="stat-box">
                 <h2>Total Requests</h2>
-                <p class="stat-box-p">1500 requests received</p>
+                <p id="request-count" class="stat-box-p">0 requests received</p>
                 <a href="newreq.html" class="action-btn">Submit New Request</a>
-
-                
-
             </div>
+
+            <!-- Total Aids Stat Box -->
             <div class="stat-box">
                 <h2>Total Aids</h2>
-                <p class="stat-box-p">1200 aids provided</p>
+                <p id="aid-count" class="stat-box-p">0 aids provided</p>
                 <button class="action-btn">See Aids Element</button>
             </div>
         </div>
     </section>
-
 
     <section class="requests">
         <h1 style="font-size: 40px;">Types of Request</h1>
@@ -50,7 +50,7 @@
             <div class="request-box">
                 <img src="pic/flood.jpg" alt="Flood Request">
                 <h3>Flood Request</h3>
-                <p>Request for essential flood supplies during crisis. Includes canned water,dry food,medicine.</p>
+                <p>Request for essential flood supplies during crisis. Includes canned water, dry food, medicine.</p>
                 <button class="req-btn">Learn More</button>
             </div>
             <div class="request-box">
@@ -62,14 +62,14 @@
             <div class="request-box">
                 <img src="pic/fire.jpg" alt="Fire Request">
                 <h3>Fire Request</h3>
-                <p>Emergency request system for fire crisis. It will ensure the safety of people by fire fighter.</p>
+                <p>Emergency request system for fire crisis. It will ensure the safety of people by fire fighters.</p>
                 <button class="req-btn">Learn More</button>
             </div>
         </div>
     </section>
 
     <section class="donations">
-        <h2  style="margin-top: 30px;" class="text-center mb-4">Recent Donations</h2>
+        <h2 style="margin-top: 30px;" class="text-center mb-4">Recent Donations</h2>
         <div id="donationCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <!-- Slide 1 -->
@@ -125,7 +125,7 @@
                     </div>
                 </div>
             </div>
-    
+
             <!-- Carousel Controls -->
             <button class="carousel-control-prev" type="button" data-bs-target="#donationCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -137,10 +137,6 @@
             </button>
         </div>
     </section>
-    
-    
-    
-
 
     <section class="support">
         <h2>Support a Cause</h2>
@@ -164,13 +160,9 @@
         </div>
     </footer>
 
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-
-
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
 </body>
 </html>
-
