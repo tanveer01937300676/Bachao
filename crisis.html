@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachao</title>
+    <link rel="stylesheet" href="crisis.css">
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">BACHAO</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pages</a></li>
+            </ul>
+            <button class="donate-btn">Donate</button>
+        </nav>
+    </header>
+
+    <section class="overview">
+        <h1>Crisis Management Overview</h1>
+        <div class="overview-stats">
+            <div class="stat-box">
+                <h2>Total Requests</h2>
+                <p class="stat-box-p">1500 requests received</p>
+                <a href="newreq.html" class="action-btn">Submit New Request</a>
+
+                
+
+            </div>
+            <div class="stat-box">
+                <h2>Total Aids</h2>
+                <p class="stat-box-p">1200 aids provided</p>
+                <button class="action-btn">See Aids Element</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="requests">
+        <h1 style="font-size: 40px;">Types of Request</h1>
+        <div class="request-types">
+            <div class="request-box">
+                <img src="pic/flood.jpg" alt="Flood Request">
+                <h3>Flood Request</h3>
+                <p>Request for essential flood supplies during crisis. Includes canned water,dry food,medicine.</p>
+                <button class="req-btn">Learn More</button>
+            </div>
+            <div class="request-box">
+                <img src="pic/blood.jpg" alt="Blood Request">
+                <h3>Blood Request</h3>
+                <p>Urgent need for blood donations. Ensure adequate supply for critical medical situations.</p>
+                <button class="req-btn">Learn More</button>
+            </div>
+            <div class="request-box">
+                <img src="pic/fire.jpg" alt="Fire Request">
+                <h3>Fire Request</h3>
+                <p>Emergency request system for fire crisis. It will ensure the safety of people by fire fighter.</p>
+                <button class="req-btn">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="donations">
+        <h2  style="margin-top: 30px;" class="text-center mb-4">Recent Donations</h2>
+        <div id="donationCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <div class="donation-card mx-2">
+                            <img src="pic/donation 1.JPG" class="d-block w-100" alt="Donation Image">
+                            <p class="mt-3">
+                                <strong>Noakhali Donation</strong><br>March 15, 2024<br>
+                                <button class="btn btn-primary mt-2">See More</button>
+                            </p>
+                        </div>
+                        <div class="donation-card mx-2">
+                            <img src="pic/donation 2.JPG" class="d-block w-100" alt="Donation Image">
+                            <p class="mt-3">
+                                <strong>Feni Donation</strong><br>March 21, 2024<br>
+                                <button class="btn btn-primary mt-2">See More</button>
+                            </p>
+                        </div>
+                        <div class="donation-card mx-2">
+                            <img src="pic/donation 3.jpeg" class="d-block w-100" alt="Donation Image">
+                            <p class="mt-3">
+                                <strong>Cumilla Donation</strong><br>March 29, 2024<br>
+                                <button class="btn btn-primary mt-2">See More</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="donation-card mx-2">
+                            <img src="pic/donation 4.jpeg" class="d-block w-100" alt="Donation Image">
+                            <p class="mt-3">
+                                <strong>Sherpur Donation</strong><br>April 5, 2024<br>
+                                <button class="btn btn-primary mt-2">See More</button>
+                            </p>
+                        </div>
+                        <div class="donation-card mx-2">
+                            <img src="pic/donation 5.jpeg" class="d-block w-100" alt="Donation Image">
+                            <p class="mt-3">
+                                <strong>Chuadanga Donation</strong><br>April 10, 2024<br>
+                                <button class="btn btn-primary mt-2">See More</button>
+                            </p>
+                        </div>
+                        <div class="donation-card mx-2">
+                            <img src="pic/donation 6.jpeg" class="d-block w-100" alt="Donation Image">
+                            <p class="mt-3">
+                                <strong>Naoga Donation</strong><br>April 12, 2024<br>
+                                <button class="btn btn-primary mt-2">See More</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#donationCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#donationCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    
+    
+    
+
+
+    <section class="support">
+        <h2>Support a Cause</h2>
+        <p>Join us in making a difference. Your contribution can help provide meals and support to those in need.</p>
+        <button class="donate-btn">Donate Now</button>
+    </section>
+
+    <footer>
+        <div class="newsletter">
+            <h3>Subscribe to our newsletter</h3>
+            <input type="email" placeholder="Input your email">
+            <button class="subscribe-btn">Subscribe</button>
+        </div>
+        <div class="footer-info">
+            <p>&copy; 2024 CrisisCore</p>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Sitemap</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+<p>hhh</p>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
+

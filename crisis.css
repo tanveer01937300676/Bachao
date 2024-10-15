@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+ul li a:hover {
+    text-decoration: none;
+    color: #0ab40d;
+    font-weight: bold;
+}
+.donate-btn {
+    background-color: #7c4dff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.overview {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f9fafc;
+}
+
+.overview h1 {
+    font-size: 36px;
+}
+
+.overview-stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.stat-box {
+    width: 750px;
+    height: 300px;
+    background-color: #dad9eb;
+    padding: 80px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.stat-box h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.stat-box-p{
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+.action-btn {
+    background-color: #7c4dff;
+    color: #fff;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    text-decoration: none;
+}
+.action-btn:hover {
+    background-color: #69ce84;
+    color: #fff;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    text-decoration: none;
+}
+
+.requests {
+    padding: 40px 0;
+    background-color: #f9fafc;
+    text-align: center;
+}
+
+.request-types {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.request-box {
+    width: 500px;
+    height: 450px;
+    background-color: #dad9eb;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.request-box img {
+    width: 500px;
+    height: 250px;
+    margin-bottom: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+.req-btn{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #7c4dff;
+    color:white ;
+    
+}
+
+.req-btn:hover{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #73d564;
+    color:white ;
+    
+}
+
+
+
+/* Donation Card Styles */
+.donation-card {
+    background-color: #dad9eb; /* Light grey background */
+    padding: 0px; /* Inner padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text inside the card */
+    width: 500px; /* Maximum width for cards */
+    margin: 0 auto; /* Center card horizontally */
+    height: 450px;
+}
+
+/* Donation Card Image Styles */
+.donation-card img {
+    width: 100%; /* Ensure the image doesn't exceed card width */
+    height: 300px; /* Maintain image aspect ratio */
+    border-top-left-radius: 8px; /* Rounded corners for images */
+    border-top-right-radius: 8px;
+}
+
+/* Align the carousel items with flexbox */
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for Buttons */
+button.btn {
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #7c4dff;
+    color:white ;
+}
+
+button.btn:hover {
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    background-color:#73d564;
+    color:white ;
+}
+
+/* Custom Carousel Controls Styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+/* Text Centering */
+h2, p {
+    text-align: center;
+}
+
+/* Remove extra spacing between the cards */
+.d-flex .donation-card {
+    margin-right: 10px; /* Adjust margin for tight spacing between cards */
+}
+
+.donation-card:last-child {
+    margin-right: 0; /* No margin on the last card */
+}
+
+
+
+.support {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.support h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.newsletter {
+    margin-bottom: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.subscribe-btn {
+    background-color: #7c4dff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-info ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-info ul li a {
+    text-decoration: none;
+    color: white;
+}
+.donate-btn:hover{
+    background-color: rgb(103, 181, 1);
+}
+
+
+
+.submit-request-section {
+    padding: 60px 20px;
+    background-color: #f9fafc;
+}
+
+.request-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.request-form .form-label {
+    font-weight: bold;
+}
+
+.request-form .donate-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.request-form .donate-btn:hover {
+    background-color: rgb(103, 181, 1);
+}
+
+#logo1{
+    text-decoration: none;
+    color: black;
+}
