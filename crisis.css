@@ -50,6 +50,8 @@ ul li a:hover {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .overview {
