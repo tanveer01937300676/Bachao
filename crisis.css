@@ -1,3 +1,4 @@
+/*
 * {
     margin: 0;
     padding: 0;
@@ -15,8 +16,93 @@ header {
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+    */
 
-nav {
+
+/* Custom CSS for Navbar */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 20px; /* Add space below the navbar */
+}
+
+.logo{
+    font-size: 30px !important;
+}
+
+.navbar {
+    padding: 0.5rem 1rem; /* Reduce padding for navbar */
+    background-color:white; /* Dark background */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Larger font size for brand */
+    font-weight: bold; /* Bold brand */
+    margin-left: 0; /* Remove left margin */
+}
+
+.navbar-nav {
+    margin-left: 70px; /* Space between logo and nav items */
+}
+
+.navbar-nav {
+    margin: 0 auto; /* Center the nav items */
+}
+
+.navbar-nav .nav-link {
+    color: black; /* White text color */
+    margin-right: 20px; /* Space between links */
+    transition: color 0.3s; /* Transition for hover effect */
+    font-size: larger;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(131, 236, 119); /* Color change on hover */
+}
+
+
+.btn.but {
+    background-color: #7c4dff !important; /* Green background */
+    color: white !important; /* White text */
+    border: none !important; /* Remove border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+    margin-inline-start: 5px;
+}
+
+.btn.but:hover {
+    background-color: #55da72 !important; /* Darker shade on hover */
+}
+
+
+.donate-btnn{
+    background-color: #7c4dff; /* Green background */
+    color: white ; /* White text */
+    border: none ; /* Remove border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.donate-btnn:hover{
+    background-color: #4fd76c ; /* Darker shade on hover */
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-left: 0; /* Remove margin on mobile */
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 0; /* Remove margin on mobile */
+        margin-bottom: 10px; /* Add margin below links on mobile */
+    }
+}
+
+/*nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,6 +139,10 @@ ul li a:hover {
     display: inline-block;
     text-decoration: none;
 }
+
+
+
+*/
 
 .overview {
     text-align: center;
@@ -99,6 +189,7 @@ ul li a:hover {
     cursor: pointer;
     font-size: large;
     text-decoration: none;
+    display: inline-block;
 }
 .action-btn:hover {
     background-color: #69ce84;
@@ -291,11 +382,14 @@ footer {
     text-decoration: none;
     color: white;
 }
-.donate-btn:hover{
-    background-color: rgb(103, 181, 1);
-}
 
 
+
+
+
+
+
+/*request form*/
 
 .submit-request-section {
     padding: 60px 20px;
@@ -315,17 +409,36 @@ footer {
     font-weight: bold;
 }
 
-.request-form .donate-btn {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
+.but {
+    background-color: #7c4dff !important; /* Green background */
+    color: white !important; /* White text */
+    border: none !important; /* Remove border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+    margin-inline-start: 5px;
+    width: 530px;
+    
+}
+ .but:hover {
+    background-color: #55da72 !important; /* Darker shade on hover */
 }
 
-.request-form .donate-btn:hover {
-    background-color: rgb(103, 181, 1);
-}
 
 #logo1{
     text-decoration: none;
     color: black;
+}
+
+
+
+
+
+
+/* Donate form */
+form {
+    background-color: #fff; /* Light grey background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
