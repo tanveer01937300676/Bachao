@@ -144,7 +144,7 @@ ul li a:hover {
 
 */
 
-.overview {
+/* .overview {
     text-align: center;
     padding: 40px 0;
     background-color: #f9fafc;
@@ -200,7 +200,117 @@ ul li a:hover {
     cursor: pointer;
     font-size: large;
     text-decoration: none;
+} */
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1500px !important; /* Max width for the container */
+    margin: 0 auto; /* Center the container */
+    text-align: center; /* Center text */
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.overview {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between boxes */
+    flex-wrap: wrap; /* Allow boxes to wrap */
+    margin-top: 40px; /* Margin above the boxes */
+    margin-bottom: 40px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #dad9eb !important; /* Background color */
+    padding: 45px; /* Padding inside boxes */
+    border-radius: 10px; /* Rounded corners */
+    width: 100% !important; /* Set width to occupy 50% minus space for margins */
+    max-width: 1000px !important; /* Max width of each card */
+    min-height: 300px; /* Minimum height */
+    flex: 1 1 48% !important; /* Adjusted flex width for larger boxes */
+    text-align: center; /* Center align text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    display: flex; /* Enable flex for child elements */
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center children */
+    margin-inline: 10px;
+    
+}
+
+.card h2 {
+    font-size: 1.8em; /* Heading size */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.card p {
+    font-size: 1.8em; /* Paragraph size */
+    margin-bottom: 20px; /* Space below paragraph */
+}
+
+.btnnn {
+    background-color: #7e00ff; /* Button color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 1em; /* Button font size */
+    width: 200px; /* Fixed button width */
+    margin-top: 10px; /* Space above button */
+}
+
+.btnnn:hover {
+    background-color: #5c00bf; /* Darker color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .overview {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center align cards */
+    }
+
+    .card {
+        max-width: 100%; /* Full width for smaller screens */
+        min-height: 200px; /* Minimum height for smaller screens */
+        margin: 10px 0; /* Added top and bottom margin for spacing */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .requests {
     padding: 40px 0;
